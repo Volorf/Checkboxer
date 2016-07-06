@@ -6,8 +6,9 @@
       $(".container").append("<input type='checkbox' id='" + i + "' name='" + i + "'>");
     }
     return $(":checkbox").change(function() {
-      console.log(this.name);
-      return frameArray.push("" + name);
+      var checkBoxName;
+      checkBoxName = this.name;
+      return frameArray.push(checkBoxName);
     });
   });
 

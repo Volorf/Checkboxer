@@ -4,5 +4,5 @@ $(document).ready ->
     $(".container").append("<input type='checkbox' id='#{i}' name='#{i}'>")
 
   $(":checkbox").change ->
-    console.log @.name
-    frameArray.push("#{name}")
+    checkBoxName = @.name
+    frameArray.push(checkBoxName)
