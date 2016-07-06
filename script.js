@@ -31,7 +31,8 @@
           for (m = 0, len = currentArray.length; m < len; m++) {
             j = currentArray[m];
             $("#" + j).prop("checked", true);
-            results1.push(console.log(j));
+            console.log(j);
+            results1.push(console.log("it"));
           }
           return results1;
         });

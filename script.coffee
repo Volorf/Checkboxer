@@ -27,3 +27,4 @@ $(document).ready ->
         for j in currentArray
           $("##{j}").prop("checked", true)
           console.log j
+          console.log "it"
