@@ -5,5 +5,4 @@ $(document).ready ->
 
   $(":checkbox").change ->
     checkBoxName = @.name
-    console.log checkBoxName
     frameArray.push(checkBoxName)

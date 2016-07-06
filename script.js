@@ -8,7 +8,6 @@
     return $(":checkbox").change(function() {
       var checkBoxName;
       checkBoxName = this.name;
-      console.log(checkBoxName);
       return frameArray.push(checkBoxName);
     });
   });
