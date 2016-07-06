@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: #eee;
+  background: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@ body .container {
   background: #fff;
   width: 800px;
   height: 600px;
-  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.05);
 }
 body .container input {
   margin: 0 4px;
