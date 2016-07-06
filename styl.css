@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  transition: all 0.5s;
+  box-sizing: border-box;
+}
+body {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+body .container {
+  background: #fff;
+  width: 800px;
+  height: 600px;
+  border-radius: 4px;
+}
+body .container input {
+  margin: 0 4px;
+  padding: 0;
+}
