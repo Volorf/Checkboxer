@@ -1,4 +1,4 @@
-# Checkboxer helps you to create your own a checkboxart
+# Checkboxer helps you to create your own checkboxart
 
 ![Checkboxer](/images/checkboxer.gif)
 
